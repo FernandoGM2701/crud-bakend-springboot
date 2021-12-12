@@ -32,4 +32,5 @@ public class Persona {
 	@ManyToOne
 	@JoinColumn (name="id_estado")
 	private Estado estado;
+	private String camino;
 }
